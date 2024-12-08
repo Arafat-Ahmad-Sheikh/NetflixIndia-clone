@@ -1,0 +1,342 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+
+body {
+  background-color: #141414;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.main-header{
+  height: 80px;
+  width: auto;
+  padding-right: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo{
+  height: 80px;
+  width: 308px;
+  margin: 0px 0px 0px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo{
+  height: 80px;
+  width: 180px;
+  background-image: url(images/netflix_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-divs{
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: flex-end;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  padding: 0px 15px;
+  border-radius: 40px;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+.select select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0px 10px 0px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.select select option{
+  font-size: 1rem;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #222;
+  border: none;
+}
+
+/* //general button styling */
+.right-divs .button a {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 0.6rem 1.25rem;
+  background-color: #ffffff;
+  color: #141414;
+  border: none;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-left: 10px;
+  width: auto;
+  text-align: center;
+}
+
+.banner-image {
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 10px 31px 0px 31px;
+  height: 525px;
+  background-image: linear-gradient(rgba(0, 0,   0, 0.7), rgba(0, 0, 0, 0.5)), url('images/bannerphoto.jpg');
+  background-size: cover;
+  background-position: center center; /* Ensures the image is properly centered */
+  background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+.banner-image {
+  box-shadow: 4px 10px 1000px 20px rgba(242, 185, 185, 0.171);  /* General glow around the image */
+}
+
+.banner-image .heading-up{
+  font-family: Arial, Helvetica, sans-serif, serif;
+  font-size: 3.5rem;
+  font-weight: 1000;
+  text-align: center;
+  position: relative;
+  top: 16rem;
+}
+
+.banner-image .heading-down{
+  font-family: Arial, Helvetica, sans-serif, serif;
+  font-size: 3.5rem;
+  font-weight: 1000;
+  text-align: center;
+  position: relative;
+  top: 15rem;
+}
+
+.banner-image .Supporting-text{
+  text-align: center;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 525;
+  top: 16rem;
+}
+
+.joining-section .join{
+  /* border: 2px solid white; */
+  margin-left: 29rem;
+  margin-right: 29rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.joining-section .supporting-text{
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff80;
+  font-weight: 550;
+}
+
+.joining-section .join input{
+  height: 3.5rem;
+  width: 63%;
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #141414;
+  border: 1px solid #ffffff80;
+  border-radius: 2rem;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.complete-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.5rem;
+  width: 35%;
+  border-radius: 2rem;
+  text-align: center;
+  border: none;
+  background-color: rgb(229, 9, 20);
+}
+
+.complete-btn button{
+  background: transparent;
+  border: none;
+}
+
+.complete-btn a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.trending-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.trending-section p{
+  margin-left: 4.5rem;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff80;
+  padding: 0.75rem 0;
+}
+
+/* select buttons below "Trending Now" */
+.trending-section .right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 4.5rem;
+}
+
+/* region */
+.right .select-region {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  padding: 0px 15px;
+  border-radius: 40px;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+.right .select-region select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0px 10px 0px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.right .select-region option{
+  font-size: 1rem;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #222;
+  border: none;
+}
+/* movie */
+.right .select-movies {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: transparent;
+  padding: 0px 15px;
+  border-radius: 40px;
+  border: 1px solid #333;
+  color: #ffffff;
+}
+
+.right .select-movies select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0px 10px 0px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.right .select-movies option{
+  font-size: 1rem;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: #222;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Container styling */
+.dropdown-container {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Hide the checkbox */
+.dropdown-toggle {
+  display: none;
+}
+
+/* Header (closed state) */
+.dropdown-header {
+  padding: 15px 20px;
+  cursor: help;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Plus icon */
+.plus-icon {
+  font-size: 20px;
+}
+
+/* Content hidden by default */
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  background-color: #222;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* When checkbox is checked, expand content */
+.dropdown-toggle:checked~.dropdown-content {
+  max-height: 100px;
+  /* Adjust based on your content */
+  padding: 10px 20px;
+}
