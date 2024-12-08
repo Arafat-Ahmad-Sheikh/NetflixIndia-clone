@@ -1,18 +1,23 @@
-=NetflixIndia Clone
+# Netflix India Clone
 
-This has been designed to bring a reality that mimics most functionalities of the homepage of Netflix as seen in India.
+This project is designed to replicate the homepage of Netflix as seen in India, mimicking most of its functionalities.
 
-Features
+## Features
 
-- User-Friendly: Clean Interface, easy-to-navigate design modeled after Netflix India.
-- Multiple Sections: Has various categories such as trending, popular, etc.
-- Theme Customization: Everything can be specially made color-wise and font-wise.
+- **User-Friendly**: Clean interface and easy-to-navigate design modeled after Netflix India.
+- **Multiple Sections**: Various categories such as *Trending*, *Popular*, etc.
+- **Theme Customization**: Customizable colors and fonts to personalize the look.
 
-Tech Stack
-HTML5: structure and content 
-CSS3: Styling JavaScript: Interactivity
-FontAwesome: Icons 
-Google Fonts: Custom fonts 
+## Tech Stack
 
-Includes a few screenshots as well as some of the features:
-![image](https://github.com/user-attachments/assets/2ea3a268-5673-4053-9c1e-7fbea36d3b24)
+- **HTML5**: Structure and content 
+- **CSS3**: Styling
+- **JavaScript**: Interactivity
+- **FontAwesome**: Icons
+- **Google Fonts**: Custom fonts
+
+## Screenshot
+
+Here's a screenshot of the project:
+
+![Netflix India Clone](https://github.com/user-attachments/assets/221f42a0-11ad-4392-aeb7-05bda8b7422f)
