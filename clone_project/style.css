@@ -12,7 +12,7 @@ body {
   font-size: 16px;
 }
 
-.main-header{
+.main-header {
   height: 80px;
   width: auto;
   padding-right: 60px;
@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
 }
 
-.header-logo{
+.header-logo {
   height: 80px;
   width: 308px;
   margin: 0px 0px 0px 16px;
@@ -29,7 +29,7 @@ body {
   justify-content: left;
 }
 
-.logo{
+.logo {
   height: 80px;
   width: 180px;
   background-image: url(images/netflix_logo.png);
@@ -37,7 +37,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.right-divs{
+.right-divs {
   display: flex;
   align-items: center;
   width: 600px;
@@ -65,7 +65,7 @@ body {
   cursor: pointer;
 }
 
-.select select option{
+.select select option {
   font-size: 1rem;
   font-family: inherit;
   color: #ffffff;
@@ -94,17 +94,20 @@ body {
   border-radius: 25px;
   margin: 10px 31px 0px 31px;
   height: 525px;
-  background-image: linear-gradient(rgba(0, 0,   0, 0.7), rgba(0, 0, 0, 0.5)), url('images/bannerphoto.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/bannerphoto.jpg');
   background-size: cover;
-  background-position: center center; /* Ensures the image is properly centered */
-  background-repeat: no-repeat; /* Prevents image repetition */
+  background-position: center center;
+  /* Ensures the image is properly centered */
+  background-repeat: no-repeat;
+  /* Prevents image repetition */
 }
 
 .banner-image {
-  box-shadow: 4px 10px 1000px 20px rgba(242, 185, 185, 0.171);  /* General glow around the image */
+  box-shadow: 4px 10px 500px 20px rgba(242, 185, 185, 0.171);
+  /* General glow around the image */
 }
 
-.banner-image .heading-up{
+.banner-image .heading-up {
   font-family: Arial, Helvetica, sans-serif, serif;
   font-size: 3.5rem;
   font-weight: 1000;
@@ -113,7 +116,7 @@ body {
   top: 16rem;
 }
 
-.banner-image .heading-down{
+.banner-image .heading-down {
   font-family: Arial, Helvetica, sans-serif, serif;
   font-size: 3.5rem;
   font-weight: 1000;
@@ -122,7 +125,7 @@ body {
   top: 15rem;
 }
 
-.banner-image .Supporting-text{
+.banner-image .Supporting-text {
   text-align: center;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -131,7 +134,7 @@ body {
   top: 16rem;
 }
 
-.joining-section .join{
+.joining-section .join {
   /* border: 2px solid white; */
   margin-left: 29rem;
   margin-right: 29rem;
@@ -141,14 +144,14 @@ body {
   justify-content: space-between;
 }
 
-.joining-section .supporting-text{
+.joining-section .supporting-text {
   margin-top: 1rem;
   text-align: center;
   color: #ffffff80;
   font-weight: 550;
 }
 
-.joining-section .join input{
+.joining-section .join input {
   height: 3.5rem;
   width: 63%;
   padding-left: 1rem;
@@ -161,7 +164,7 @@ body {
   box-sizing: border-box;
 }
 
-.complete-btn{
+.complete-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,39 +177,40 @@ body {
   background-color: rgb(229, 9, 20);
 }
 
-.complete-btn button{
+.complete-btn button {
   background: transparent;
   border: none;
 }
 
-.complete-btn a{
+.complete-btn a {
   text-decoration: none;
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.trending-section{
+.trending-section {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
 }
 
-.trending-section p{
-  margin-left: 4.5rem;
+.trending-section p {
+  margin-left: 8.5rem;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #ffffff80;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff90;
   padding: 0.75rem 0;
 }
 
 /* select buttons below "Trending Now" */
-.trending-section .right{
+.trending-section .right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-right: 4.5rem;
+  margin-right: 8.5rem;
+  gap: 1rem;
 }
 
 /* region */
@@ -231,13 +235,14 @@ body {
   cursor: pointer;
 }
 
-.right .select-region option{
+.right .select-region option {
   font-size: 1rem;
   font-family: inherit;
   color: #ffffff;
   background-color: #222;
   border: none;
 }
+
 /* movie */
 .right .select-movies {
   display: flex;
@@ -260,7 +265,7 @@ body {
   cursor: pointer;
 }
 
-.right .select-movies option{
+.right .select-movies option {
   font-size: 1rem;
   font-family: inherit;
   color: #ffffff;
@@ -268,38 +273,212 @@ body {
   border: none;
 }
 
+.trending-posters {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 11%;
+  width: 78%;
+}
+
+/* --------------------------------------- */
+.trending-posters div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  padding-left: -1rem;
+  text-decoration: none;
+  color: transparent;
+  /* -webkit-text-stroke: 2px #ffffff80; */
+  font-weight: 700;
+}
+
+/* ---------------------------------------- */
+.trending-posters .poster1 {
+  width: 11.5%;
+  background: url(images/card1.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster2 {
+  width: 11.5%;
+  background: url(images/card2.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster3 {
+  width: 11.5%;
+  background: url(images/card3.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster4 {
+  width: 11.5%;
+  background: url(images/card4.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster5 {
+  width: 11.5%;
+  background: url(images/card5.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster6 {
+  width: 11.5%;
+  background: url(images/card6.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters .poster7 {
+  width: 11.5%;
+  background: url(images/card7.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+.trending-posters div:hover {
+  transform: scale(1.05);
+  /* Grows the poster slightly */
+  transition: transform 0.5s ease;
+  /* Smooth transition effect */
+}
+
+.reasons-to-join_text {
+  margin-left: 8.5rem;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fffffff5;
+  padding: 0.75rem 0;
+  padding-top: 2rem;
+}
+
+.resonstojoin_cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 9%;
+  width: 82%;
+}
+
+.resonstojoin_cards .card1 {
+  width: 20%;
+  height: 6rem;
+  background-color: #222;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: end;
+}
+
+.resonstojoin_cards div i {
+  font-size: 2rem;
+  background: linear-gradient(to right, red, purple);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 
+.resonstojoin_cards .card2 {
+  width: 20%;
+  height: 6rem;
+  background-color: #222;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: end;
+}
 
+.resonstojoin_cards .card3 {
+  width: 20%;
+  height: 6rem;
+  background-color: #222;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: end;
+}
 
+.resonstojoin_cards .card4 {
+  width: 20%;
+  height: 6rem;
+  background-color: #222;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: end;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.faqs-section .faq-heading {
+  margin-left: 8.5rem;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0.75rem 0;
+  padding-top: 2rem;
+}
 
 /* Container styling */
 .dropdown-container {
-  width: 300px;
+  width: 82%;
   margin: 20px auto;
   background-color: #222;
   border-radius: 8px;
   overflow: hidden;
   color: white;
   font-family: Arial, sans-serif;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -310,13 +489,14 @@ body {
 
 /* Header (closed state) */
 .dropdown-header {
-  padding: 15px 20px;
-  cursor: help;
+  padding: 2rem 2rem;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  font-size: 16px;
+  background-color: #222;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -330,13 +510,73 @@ body {
   max-height: 0;
   overflow: hidden;
   padding: 0 20px;
-  background-color: #222;
+  background-color: #2b2a2a;
   transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
 }
+
 
 /* When checkbox is checked, expand content */
 .dropdown-toggle:checked~.dropdown-content {
   max-height: 100px;
   /* Adjust based on your content */
   padding: 10px 20px;
+}
+
+footer .joining-section .supporting-text {
+  color: white;
+  padding-bottom: 1rem;
+}
+
+footer .joining-section .complete-btn {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  /* Centers the button */
+  align-items: center;
+  /* Aligns the button vertically */
+}
+
+footer .complete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.5rem;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 2rem;
+  text-align: center;
+  border: none;
+  background-color: rgb(229, 9, 20);
+}
+
+footer .complete-btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer .contactus {
+  padding-left: 8rem;
+  color: #ffffff90;
+}
+
+footer a {
+  color: #ffffff90;
+}
+
+footer .select {
+  margin-top: 2rem;
+  margin: 3rem;
+  margin-left: 8rem;
+  width: 7rem;
+  border: 2px solid #ffffff80;
+}
+
+footer .end {
+  padding-left: 8rem;
+  padding-bottom: 5rem;
+  color: #ffffff90;
 }
