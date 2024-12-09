@@ -16,8 +16,11 @@ This project is designed to replicate the homepage of Netflix as seen in India, 
 - **FontAwesome**: Icons
 - **Google Fonts**: Custom fonts
 
-## Screenshot
+## Screenshots
 
-Here's a screenshot of the project:
+Here are some screenshots of the project:
 
-![Netflix India Clone](https://github.com/user-attachments/assets/221f42a0-11ad-4392-aeb7-05bda8b7422f)
+![image](https://github.com/user-attachments/assets/b960fceb-2718-430d-b201-55bdcb0d3ffe)
+![image](https://github.com/user-attachments/assets/e8192277-3ae0-430b-bc50-fe6676b10721)
+![image](https://github.com/user-attachments/assets/4c46dfa3-96de-46bb-a2d5-eaedb7e6f463)
+![image](https://github.com/user-attachments/assets/eee6c966-d6b5-421f-b0a4-8497fed7e132)
