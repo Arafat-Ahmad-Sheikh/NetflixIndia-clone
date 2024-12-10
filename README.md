@@ -12,7 +12,6 @@ This project is designed to replicate the homepage of Netflix as seen in India, 
 
 - **HTML5**: Structure and content 
 - **CSS3**: Styling
-- **JavaScript**: Interactivity
 - **FontAwesome**: Icons
 - **Google Fonts**: Custom fonts
 
